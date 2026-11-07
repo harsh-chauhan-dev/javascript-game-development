@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mario-Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+       <h1>🍄 Simple Mario Game 🍄</h1>
+        <div class="game-container">
+            <div class="ui">
+                <p>Score: <span id="score">0</span></p>
+                <p>Level: <span id="level">1</span></p>
+                <p>Lives: <span id="lives">3</span></p>
+            </div> 
+
+            <div id="game-area">
+                <div id="mario"></div>
+            </div>
+
+            <div class="controler">
+                <p>Controller</p>
+                <p>Arrows Keys: Move Left/Right</p>
+                <p>Down Arrow: Enter pipe (when on top it)</p>
+            </div>
+        </div>
+  <div class="game-over">
+    <h2 id="game-over-title">Game Over</h2>
+    <p>Score:<span id="final-score">0</span></p>
+    <button id="reset-button">Play Again</button>
+  </div>
+        <script src="script.js"></script>
+    </body>
+</html>
